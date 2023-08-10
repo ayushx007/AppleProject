@@ -1,0 +1,132 @@
+.apple-logo {
+    height: 50px;
+    width: 50px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.on-boarding{
+    padding: 300px 0 350px 0;
+    background-color: black;
+}
+
+.center-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffb6ff;
+    font-family: San Francisco;
+}
+.welcome-text{
+    display:block;
+    font-family: San Francisco;
+    display: none;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    font-size: 72px;
+    background: -webkit-linear-gradient(180deg,#ffb6ff,#b344ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.typing-text {
+    background: -webkit-linear-gradient(180deg,#ffb6ff,#b344ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    white-space: pre-line;
+    width: 80%;
+    text-align: center;
+}
+.history-heading{
+        font-size: 48px;
+        text-align: center;
+        text-decoration: underline;
+}
+
+.content{
+    display: flex;
+    text-align:left;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 80px;
+    width: 100%;
+}
+.steve-image{
+    width: 30%;
+}
+.apple-1{
+    width: 40%;
+}
+.image-history{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.macintosh{
+    width:60%;
+}
+
+
+.mac-os{
+    width: 20%;
+}
+.products{
+    background-color: black;
+}
+#myCarousel {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .carousel-control-next, .carousel-control-prev {
+      width: 9% !important;
+  }
+  
+  .carousel-inner {
+    background: #111;
+  }
+  .carousel-caption{
+    position: absolute;
+    right: 15%;
+    top: -42px;
+    left: 15%;
+    font-weight: bold;
+    z-index: 999999999;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background: -webkit-linear-gradient(180deg,#ffb6ff,#b344ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    white-space: pre-line;
+    outline-color: black;
+    text-decoration: underline;
+    background-color: black;
+  }
+  
+  .carousel-indicators {
+    bottom: -13px !important;
+  }
+  
+  .carousel-item {
+    padding-bottom: 25px;
+  }
+  
+  video {
+    width: 100%;
+  }
+  footer{
+    background-color: #b344ff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  footer p{
+    margin-top: 10px;
+  }
